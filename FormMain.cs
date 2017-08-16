@@ -54,7 +54,7 @@ namespace BatchExcelReader
             instructionReader = new InstructionReader(instructionFile);
         }
 
-        private async void startProcessButton_Click(object sender, EventArgs e)
+        private async void startProcessButton_Click_1(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(XLSXFolder) && !string.IsNullOrEmpty(instructionFile))
             {
@@ -67,7 +67,8 @@ namespace BatchExcelReader
                 bindingSource.DataSource = dataTable;
                 dataGridView.DataSource = bindingSource;
                 dataGridView.Refresh();
-            } else
+            }
+            else
             {
                 MessageBox.Show("Please specify both XLSX directory and instruction file.", "Error occurred", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }

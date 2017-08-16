@@ -40,13 +40,16 @@
             this.browseXLSXButton = new System.Windows.Forms.Button();
             this.txtXLSXDirectory = new System.Windows.Forms.TextBox();
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.startProcessButton = new System.Windows.Forms.Button();
             this.fileSelector = new System.Windows.Forms.OpenFileDialog();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.startProcessButton = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -56,7 +59,7 @@
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.dataGridView, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.startProcessButton, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 0, 3);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -176,19 +179,39 @@
             this.dataGridView.Size = new System.Drawing.Size(593, 272);
             this.dataGridView.TabIndex = 2;
             // 
-            // startProcessButton
-            // 
-            this.startProcessButton.Location = new System.Drawing.Point(3, 361);
-            this.startProcessButton.Name = "startProcessButton";
-            this.startProcessButton.Size = new System.Drawing.Size(109, 23);
-            this.startProcessButton.TabIndex = 3;
-            this.startProcessButton.Text = "Start process";
-            this.startProcessButton.UseVisualStyleBackColor = true;
-            this.startProcessButton.Click += new System.EventHandler(this.startProcessButton_Click);
-            // 
             // fileSelector
             // 
             this.fileSelector.FileName = "openFileDialog1";
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.startProcessButton);
+            this.flowLayoutPanel1.Controls.Add(this.label3);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 361);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(593, 34);
+            this.flowLayoutPanel1.TabIndex = 3;
+            // 
+            // startProcessButton
+            // 
+            this.startProcessButton.Location = new System.Drawing.Point(3, 3);
+            this.startProcessButton.Name = "startProcessButton";
+            this.startProcessButton.Size = new System.Drawing.Size(94, 23);
+            this.startProcessButton.TabIndex = 0;
+            this.startProcessButton.Text = "Start process";
+            this.startProcessButton.UseVisualStyleBackColor = true;
+            this.startProcessButton.Click += new System.EventHandler(this.startProcessButton_Click_1);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(103, 9);
+            this.label3.Margin = new System.Windows.Forms.Padding(3, 9, 3, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(151, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Created by Hoang Dinh Thinh.";
             // 
             // FormMain
             // 
@@ -204,6 +227,8 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -223,7 +248,9 @@
         private System.Windows.Forms.DataGridView dataGridView;
         private System.Windows.Forms.OpenFileDialog fileSelector;
         private System.Windows.Forms.ToolTip toolTip;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button startProcessButton;
+        private System.Windows.Forms.Label label3;
     }
 }
 
