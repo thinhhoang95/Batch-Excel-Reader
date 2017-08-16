@@ -1,0 +1,11 @@
+c:\users\hoang\documents\visual studio 2015\Projects\BatchExcelReader\BatchExcelReader\bin\Debug\BatchExcelReader.exe.config
+c:\users\hoang\documents\visual studio 2015\Projects\BatchExcelReader\BatchExcelReader\bin\Debug\BatchExcelReader.exe
+c:\users\hoang\documents\visual studio 2015\Projects\BatchExcelReader\BatchExcelReader\bin\Debug\BatchExcelReader.pdb
+c:\users\hoang\documents\visual studio 2015\Projects\BatchExcelReader\BatchExcelReader\obj\Debug\BatchExcelReader.csprojResolveAssemblyReference.cache
+c:\users\hoang\documents\visual studio 2015\Projects\BatchExcelReader\BatchExcelReader\obj\Debug\BatchExcelReader.FormMain.resources
+c:\users\hoang\documents\visual studio 2015\Projects\BatchExcelReader\BatchExcelReader\obj\Debug\BatchExcelReader.Properties.Resources.resources
+c:\users\hoang\documents\visual studio 2015\Projects\BatchExcelReader\BatchExcelReader\obj\Debug\BatchExcelReader.csproj.GenerateResource.Cache
+c:\users\hoang\documents\visual studio 2015\Projects\BatchExcelReader\BatchExcelReader\obj\Debug\BatchExcelReader.exe
+c:\users\hoang\documents\visual studio 2015\Projects\BatchExcelReader\BatchExcelReader\obj\Debug\BatchExcelReader.pdb
+C:\Users\hoang\documents\visual studio 2015\Projects\BatchExcelReader\BatchExcelReader\bin\Debug\EPPlus.dll
+C:\Users\hoang\documents\visual studio 2015\Projects\BatchExcelReader\BatchExcelReader\bin\Debug\EPPlus.xml
